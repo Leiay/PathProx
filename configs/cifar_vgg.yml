@@ -1,0 +1,30 @@
+
+# system related
+cuda: True
+gpu: ??
+logger_name: ??
+seed: 4242
+
+# data related
+data_path: data/
+batch_size: 128
+which_dataset: CIFAR10
+
+# optimizer
+optimizer: SGD
+lr: 0.1
+momentum: 0.
+
+# scheduler
+lr_scheduler: multi_step
+gamma: 0.1
+milestone: [80, 120]
+
+# model related
+arch: VGG19
+
+# training related
+total_epoch: 1000
+log_freq: 100
+save_freq: 44000
+

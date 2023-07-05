@@ -1,0 +1,25 @@
+
+# system related
+cuda: True
+gpu: ??
+logger_name: ??
+seed: 4242
+
+# data related
+data_path: data/
+batch_size: 200
+which_dataset: MNIST
+
+# optimizer
+optimizer: SGD
+lr: 0.01
+momentum: 0.
+
+# model related
+arch: mlp
+num_hidden: 400
+
+# training related
+total_iter: 50000
+log_freq: 1000
+save_freq: 1000
